@@ -15,8 +15,8 @@ body {
   display: block;
   position: absolute;
   background-image: linear-gradient(#6b3636, #6c6cff);
-  padding: 2%;
-  padding-bottom: 10%;
+  padding: 1%;
+  padding-bottom: 13%;
 }
 
 .music-header .fa-angle-left {
@@ -34,6 +34,8 @@ body {
   background-image: linear-gradient(#6b3636, #6c6cff);
   position: relative;
   bottom: 15%;
+  text-align: center;
+  
 }
 .music-header .fa-search {
   float: right;
@@ -41,7 +43,6 @@ body {
   margin-right: 10px;
   cursor: pointer;
   position: relative;
-  
 }
 .music-header .title {
   width: 250px;
@@ -60,8 +61,8 @@ body {
   width: 100%;
   height: 28px;
   position: relative;
-  right: 10%;
-  padding-bottom: 10%;
+  right: 5%;
+  padding: 3% 0 7% 0;
 }
 .menu {
   width: 275px;
@@ -78,7 +79,6 @@ body {
   list-style-type: none;
   display: inline-block;
   border-right: 1px solid #fff;
-  
 }
 .menu ul li a {
   color: #fff;
@@ -94,8 +94,8 @@ body {
   height: 30rem;
   overflow: scroll;
   overflow-x: hidden;
- position: relative;
- top : 5%;
+  position: relative;
+  top: 5%;
 }
 .music-box::-webkit-scrollbar {
   width: 0;
@@ -148,3 +148,88 @@ hr {
   margin-top: 4px !important;
   margin-bottom: 6px !important;
 }
+.music-play {
+  width: 100%;
+  height: 60px;
+  
+  
+}
+.play-image{
+  width: 50px;
+  height: 48px;
+  margin: 5px;
+  border-radius: 5px;
+  position: relative;
+  top : 105%;
+  right: 15%;
+}
+.play-controls {
+  width: 20rem;
+  height: 4rem;
+  position: absolute;
+  top : 75%;
+  left : 15%;
+  
+  
+}
+.controls {
+  width: 285px;
+  height: 50px;
+  display: flex;
+}
+.song-name {
+  width: 150px;
+  height: 50px;
+}
+.song-name h5 {
+  margin-top: 20px;
+  margin-left: 10px;
+  font-size: 15px;
+  font-weight: normal;
+  letter-spacing: 0.5px;
+  line-height: 6px;
+}
+.song-name p {
+  font-size: 10px;
+  margin-left: 10px;
+  letter-spacing: 0.5px;
+  color: #ccc;
+}
+.play-icon .fa {
+  width: 30px;
+  height: 30px;
+  float: right;
+  font-size: 13px;
+  color: #000;
+  border-radius: 50%;
+  background-color: #999;
+  margin: 15px 13px 0 auto;
+  padding: 9px 11px;
+  cursor: pointer;
+}
+.play-icon .fa-play {
+  background-color: #fff;
+}
+.music-progress {
+  width: 260px;
+  margin-left: 10px;
+  position: relative;
+  top : 25%;
+}
+.music-progress .progress {
+  height: 2px !important;
+  border-radius: 0 !important;
+  background-color: #999;
+}
+.music-progress .progress-bar {
+  width: 50%;
+  background-color: #fff;
+  animation: width 10s infinite;
+}
+@keyframes width {
+  100% {
+    width: 100;
+  }
+}
+
+
